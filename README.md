@@ -48,10 +48,17 @@ When the script is installed and ran, it comes with two additional aliases which
 CHECK IF YOU HAVE ANOTHER ALIAS NAMED resolv AND RENAME ONE OR THE OTHER.
 A backup will be created and three aliases will be appended to your ./bash_profile.
 Install
+
 bash <(curl -s -L https://bit.ly/2Y18D1P | sed -n "1p")
+
 Uninstall:
+
 bash <(curl -s -L https://bit.ly/2Y18D1P | sed -n "2p")
+
 TamperMonkey integration.
+
 - Download and install TamperMonkey addon for your browser: https://www.tampermonkey.net/
+- 
 - Access this URL and install the script https://ivostanchev.com/download/resolv_host_mod.user.js.
+- 
 - Reload migration page, load a migration and click on one of the available domains where the normal host files is displayed. You should see the new entry there. 
